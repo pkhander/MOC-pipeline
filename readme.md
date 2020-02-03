@@ -2,16 +2,17 @@
 
 ### INTRODUCTION 
     
-This is a mock MOC website on wordpress. After the set up, almost all administration can be done through its web frontend. In order to run wordpress locally we need LAMP stack. (L)INUX, (A)PACHE, (M)ySQL, (P)HP. Follow the steps to get wordpress installed locally 
+This is a mock MOC website on wordpress. After the set up, almost all administration can be done through its web frontend. In order to run wordpress locally we need L(inux)AMP or M(ac)AMP stack.(A)PACHE, (M)ySQL, (P)HP. Follow the steps to get wordpress installed locally 
     
      
  This git repo consists of the theme used to create the website. If you already have wordpress running locally skip to step 5.
 
 ###  STEP # 1 INSTALL Apache web server
         
-        dnf install httpd -y 
+        dnf install httpd -y  (Fedora)
+        brew install httpd -y (Mac)
         
-Now allow Apache through firewall in case fireall is running on your system. 
+Now allow Apache through firewall in case fireall is running on your system. You might need to run the command with sudo privilages. Simply put sudo before the commands if needed. You'll need the password for sudo user.
         
         firewall-cmd --add-port=80/tcp --permanent
         firewall-cmd --reload
@@ -24,7 +25,8 @@ Start and enable Apache
                                    
 ### STEP # 2 Install MySQL and run security script
 
-        dnf install mysql mysql-server
+        dnf install mysql mysql-server (Linux)
+        brew install mysql mysql-server (Mac)
         
 Start and enable MySQL: 
         
@@ -52,11 +54,17 @@ Now run MySQL security script to set the root password, remove anonymous users, 
         
 ### STEP # 3 Installing PHP and Wordpress
 
+linux users:
 
          dnf install php php-fpm php-mysqlnd php-gd php-mcrypt php-mbstring
          dnf install wordpress
+         
+Mac users: 
 
+         brew install php php-fpm php-mysqlnd php-gd php-mcrypt php-mbstring
+         brew install wordpress
 
+        
 ### STEP# 4 Create database for Wordpress.
 
 Login to MariaDB using the password set in step 2.
@@ -73,14 +81,13 @@ User=Admin
         grant all privileges on mocsite.* to admin@localhost identified by 'PASSWORD';
         flush privileges;
         quit;
-
-            
+   
+   
 ### STEP # 5 Configure database for Wordpress website
 
 Here you'll have to go into the wp-config.php file of wordpress to configure the database you made in the above steps.
-
-        vim /etc/wordpress/wp-config.php_
-   
+Navigate to wp-config.php. The path should be /wordpress/wp-config.php
+      
         /** The name of the database for WordPress */
         define('DB_NAME', 'database_name_here');   [Change the database name made above. "mocsite"
  
@@ -92,12 +99,15 @@ Here you'll have to go into the wp-config.php file of wordpress to configure the
 
          /** MySQL hostname */
          define('DB_HOST', 'localhost');            [No change needed]
-                   
+        
+        
 ### STEP # 6 CLONE THIS GITHUB REPO IN YOUR WP-THEME
   
-        cd /etc/wordpress/wp-content/themes
+Here you'll have to go to themes directory of wordpress and clone this github reposiroty there. The path should be /wordpress/wp-content/themes
+ 
         git clone https://github.com/pkhander/MOC-pipeline_
         systemctl restart httpd
+
 
 ### STEP # 7 READY TO GO 
 
