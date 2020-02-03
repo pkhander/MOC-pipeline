@@ -2,7 +2,7 @@
 
 ### INTRODUCTION 
     
-    This is a mock MOC website on wordpress. After the set up, almost all administration can be done through its web frontend. In order to run wordpress locally we need LAMP stack. (L)INUX, (A)PACHE, (M)ySQL, (P)HP. Follow the steps to get wordpress installed locally 
+This is a mock MOC website on wordpress. After the set up, almost all administration can be done through its web frontend. In order to run wordpress locally we need LAMP stack. (L)INUX, (A)PACHE, (M)ySQL, (P)HP. Follow the steps to get wordpress installed locally 
     
      
  This git repo consists of the theme used to create the website. If you already have wordpress running locally skip to step 5.
