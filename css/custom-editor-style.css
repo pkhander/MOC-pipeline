@@ -1,0 +1,55 @@
+/*------------------------------------------------------------------
+[Admin Custom Editor Style]
+* - Enqueued via functions.php using housellwp_add_editor_styles();
+[Table of contents]
+1. Tinymce
+2. Headings styling
+-------------------------------------------------------------------*/
+/*---------------------------------------------*/
+/*--- 1. Tinymce ---*/
+/*---------------------------------------------*/
+body#tinymce.wp-editor { 
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 10px; 
+}
+body#tinymce.wp-editor a {
+    color: #4CA6CF;
+}
+.wp-editor-container .wp-editor-area {
+	padding: 2rem 12rem;
+	background: #232323;
+	color: #999;
+	font-size: 17px;
+	letter-spacing: -0.03rem;
+}
+.mce-content-body p, .mce-content-body div, .mce-content-body h1, .mce-content-body h2, .mce-content-body h3, .mce-content-body h4, .mce-content-body h5, .mce-content-body h6 {
+    line-height: inherit;
+}
+/*---------------------------------------------*/
+/*--- 2. Headings styling ---*/
+/*---------------------------------------------*/
+.h1,
+h1{
+    line-height: inherit;
+}
+.h2,
+h2{
+    line-height: inherit;
+}
+.h3,
+h3{
+    line-height: inherit;
+}
+.h4,
+h4{
+    line-height: inherit;
+}
+.h5,
+h5{
+    line-height: inherit;
+}
+.h6,
+h6{
+    line-height: inherit;
+}
+

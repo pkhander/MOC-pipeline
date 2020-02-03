@@ -1,0 +1,429 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: political/templates/template-header2.php:61
+msgid " Appearance -> Menus"
+msgstr ""
+
+#. Text in function
+#: political/footer.php:37
+msgid " developed by WPComb"
+msgstr ""
+
+#. Text in function
+#: political/inc/theme-info.php:53
+msgid "%s makes use of the Customizer for all theme settings. Click on \"Customize Theme\" to open the Customizer now."
+msgstr ""
+
+#. Text in function
+#: political/comments.php:77
+msgid "&larr; Older Comments"
+msgstr ""
+
+#. Text in echo
+#: political/404.php:17
+msgid "404"
+msgstr ""
+
+#. Text in function
+#: political/functions.php:1
+msgid "404 Not Found"
+msgstr ""
+
+#. Text in function
+#: political/footer.php:41
+msgid "A Political Theme by WPComb."
+msgstr ""
+
+#. Text in function
+#: political/comments.php:91
+msgid "Add comment"
+msgstr ""
+
+#. Text in function
+#: political/inc/tgm/class-tgm-plugin-activation.php:1
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#. Text in function
+#: political/inc/custom-functions.php:1
+msgid "Blog"
+msgstr ""
+
+#. Text in function
+#: political/comments.php:91
+msgid "Cancel reply"
+msgstr ""
+
+#. Text in function
+#: political/comments.php:91
+msgid "Comment"
+msgstr ""
+
+#. Text in echo
+#: political/comments.php:76
+msgid "Comment navigation"
+msgstr ""
+
+#. Text in echo
+#: political/comments.php:88
+msgid "Comments are closed."
+msgstr ""
+
+#. Text in function
+#: political/content-blogloop-v3.php:74
+msgid "Continue Reading"
+msgstr ""
+
+#. Text in echo
+#: political/inc/theme-info.php:56
+msgid "Customize Theme"
+msgstr ""
+
+#. Text in function
+#: political/inc/tgm/class-tgm-plugin-activation.php:1
+msgid "Dismiss this notice"
+msgstr ""
+
+#. Text in function
+#: political/inc/theme-info.php:37
+msgid "Documentation"
+msgstr ""
+
+#. Text in function
+#: political/content-page.php:20
+#: political/inc/custom-comments.php:36
+msgid "Edit"
+msgstr ""
+
+#. Text in function
+#: political/inc/theme-info.php:35
+msgid "Free vs PRO"
+msgstr ""
+
+#. Text in function
+#: political/inc/custom-functions.php:1
+msgid "From the Blog"
+msgstr ""
+
+#. Text in echo
+#: political/inc/theme-info.php:47
+msgid "Get Political PRO now"
+msgstr ""
+
+#. Text in function
+#: political/content-none.php:11
+msgid "Get started here"
+msgstr ""
+
+#. Text in function
+#: political/inc/theme-info.php:45
+msgid "Getting Started with %s"
+msgstr ""
+
+#. Text in function
+#: political/functions.php:1
+msgid "Home"
+msgstr ""
+
+#. Text in function
+#: political/inc/tgm/class-tgm-plugin-activation.php:1
+msgid "Install Plugins"
+msgstr ""
+
+#. Text in function
+#: political/inc/tgm/class-tgm-plugin-activation.php:1
+msgid "Install Required Plugins"
+msgstr ""
+
+#. Text in function
+#: political/inc/tgm/class-tgm-plugin-activation.php:1
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. Text in echo
+#: political/content-none.php:27
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#. Text in function
+#: political/comments.php:91
+msgid "Leave a comment"
+msgstr ""
+
+#. Text in function
+#: political/comments.php:91
+msgid "Leave a reply to %s"
+msgstr ""
+
+#. Text in function
+#: political/inc/theme-info.php:36
+msgid "Live Demo"
+msgstr ""
+
+#. Text in function
+#: political/comments.php:91
+msgid "Log out of this account"
+msgstr ""
+
+#. Text in function
+#: political/comments.php:91
+msgid "Log out?"
+msgstr ""
+
+#. Text in function
+#: political/comments.php:91
+msgid "Logged in as "
+msgstr ""
+
+#. Text in function
+#: political/functions.php:1
+msgid "Main Theme Sidebar"
+msgstr ""
+
+#. Text in function
+#: political/comments.php:78
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#. Text in function
+#: political/inc/tgm/class-tgm-plugin-activation.php:1
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. Text in echo
+#: political/content-none.php:21
+msgid "Nothing Found"
+msgstr ""
+
+#. Text in function
+#: political/functions.php:1
+msgid "Page"
+msgstr ""
+
+#. Text in function
+#: political/content-blogloop-v3.php:79
+#: political/content-page.php:12
+#: political/content-single.php:76
+#: political/content.php:70
+msgid "Pages:"
+msgstr ""
+
+#. Text in function
+#: political/inc/tgm/class-tgm-plugin-activation.php:1
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#. Text in function
+#: political/inc/tgm/class-tgm-plugin-activation.php:1
+msgid "Plugin activated successfully."
+msgstr ""
+
+#. Text in function
+#: political/inc/tgm/class-tgm-plugin-activation.php:1
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. Text in function
+#: political/inc/theme-info.php:1
+msgid "Political Lite"
+msgstr ""
+
+#. Text in function
+#: political/footer.php:37
+msgid "Political Theme"
+msgstr ""
+
+#. Text in function
+#: political/content-single.php:135
+msgid "Posted by "
+msgstr ""
+
+#. Text in function
+#: political/functions.php:1
+msgid "Primary menu"
+msgstr ""
+
+#. Text in function
+#: political/templates/template-header2.php:61
+msgid "Primary navigation menu is missing. Add one from "
+msgstr ""
+
+#. Text in function
+#: political/inc/theme-info.php:38
+msgid "Rate this Theme"
+msgstr ""
+
+#. Text in function
+#: political/content.php:70
+msgid "Read More <i class=\"fa fa-long-arrow-right\" aria-hidden=\"true\"></i>"
+msgstr ""
+
+#. Text in function
+#: political/content-none.php:11
+msgid "Ready to publish your first post? "
+msgstr ""
+
+#. Text in function
+#: political/inc/theme-info.php:39
+msgid "Recomended Plugins"
+msgstr ""
+
+#. Text in echo
+#: political/content-single.php:117
+msgid "Related Posts"
+msgstr ""
+
+#. Text in function
+#: political/404.php:21
+msgid "Return to Homepage"
+msgstr ""
+
+#. Text in function
+#: political/inc/tgm/class-tgm-plugin-activation.php:1
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#. Text in function
+#: political/inc/tgm/class-tgm-plugin-activation.php:1
+msgid "Return to the Dashboard"
+msgstr ""
+
+#. Text in function
+#: political/inc/custom-functions.php:1
+msgid "Search Results for: "
+msgstr ""
+
+#. Text in function
+#: political/functions.php:1
+msgid "Secondary Theme Sidebar - Used on templates with both sidebars"
+msgstr ""
+
+#. Text in function
+#: political/functions.php:1
+msgid "Sidebar Main"
+msgstr ""
+
+#. Text in function
+#: political/functions.php:1
+msgid "Sidebar Secondary"
+msgstr ""
+
+#. Text in function
+#: political/inc/tgm/class-tgm-plugin-activation.php:1
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. Text in echo
+#: political/404.php:18
+msgid "Sorry, this page does not exist"
+msgstr ""
+
+#. Text in function
+#: political/content-single.php:70
+msgid "Tags:"
+msgstr ""
+
+#. Text in function
+#: political/inc/tgm/class-tgm-plugin-activation.php:1
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#. Text in echo
+#: political/404.php:19
+msgid "The link you clicked might be corrupted, or the page may have been removed."
+msgstr ""
+
+#. Text in echo
+#: political/inc/theme-info.php:51
+msgid "Theme Options"
+msgstr ""
+
+#. Text in function
+#: political/inc/tgm/class-tgm-plugin-activation.php:1
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#. Text in function
+#: political/inc/tgm/class-tgm-plugin-activation.php:1
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#. Text in echo
+#: political/content-none.php:22
+msgid "Try to search for posts via the form above"
+msgstr ""
+
+#. Text in echo
+#: political/content-none.php:17
+msgid "Try to search using another term via the form above"
+msgstr ""
+
+#. Text in function
+#: political/inc/tgm/class-tgm-plugin-activation.php:1
+msgid "Update Required"
+msgstr ""
+
+#. Text in function
+#: political/inc/tgm/class-tgm-plugin-activation.php:1
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#. Text in function
+#: political/inc/theme-info.php:1
+#: political/inc/theme-info.php:32
+msgid "Welcome to %1$s %2$s"
+msgstr ""
+
+#. Text in function
+#: political/comments.php:91
+msgid "You must be "
+msgstr ""
+
+#. Text in function
+#: political/comments.php:91
+msgid "Your comment"
+msgstr ""
+
+#. Text in echo
+#: political/inc/custom-comments.php:24
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#. Text in function
+#: political/comments.php:91
+msgid "Your email"
+msgstr ""
+
+#. Text in function
+#: political/comments.php:91
+msgid "Your name"
+msgstr ""
+
+#. Text in function
+#: political/comments.php:91
+msgid "Your website"
+msgstr ""
+
+#. Text in function
+#: political/comments.php:91
+msgid "logged in"
+msgstr ""
+
+#. Text in function
+#: political/comments.php:91
+msgid "to post a comment."
+msgstr ""
+
+#. Text in echo
+#: political/index.php:42
+#: political/index.php:62
+#: political/index.php:82
+#: political/index.php:103
+#: political/index.php:118
+#: political/index.php:133
+msgid "| "
+msgstr ""
