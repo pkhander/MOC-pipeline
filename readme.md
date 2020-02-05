@@ -14,28 +14,33 @@ This is a mock MOC website on wordpress. After the set up, almost all administra
         
 Now allow Apache through firewall in case fireall is running on your system. You might need to run the command with sudo privilages. Simply put sudo before the commands if needed. You'll need the password for sudo user.
         
-        firewall-cmd --add-port=80/tcp --permanent
-        firewall-cmd --reload
+        sudo firewall-cmd --add-port=80/tcp --permanent
+        sudo firewall-cmd --reload
       
 Start and enable Apache 
         
-        systemctl start httpd
-        systemctl enable httpd
+        sudo systemctl start httpd (fedora)
+        sudo systemctl enable httpd (fedora)
+        
+        sudo brew services start httpd (Mac)
         
                                    
 ### STEP # 2 Install MySQL and run security script
 
-        dnf install mysql mysql-server (Linux)
-        brew install mysql mysql-server (Mac)
+        dnf install mysql mysql-server (fedora)
+        brew install mysql-server (Mac)
         
 Start and enable MySQL: 
         
-        systemctl enable mariadb
-        systemctl start mariadb
+        systemctl enable mariadb (fedora)
+        systemctl start mariadb  (fedora)
         
+        mysql.server start (Mac)
+        brew services start mariadb (Mac)
 
-Now run MySQL security script to set the root password, remove anonymous users, remove test databases,and disable remote login. If root password is already set enter the password instead of enter and do the rest of the steps.
+Now run MySQL security script to set the root password, remove anonymous users, remove test databases,and disable remote login. If root password is already set enter the password instead of enter and do the rest of the steps. The script and the steps will be the same for both fedora and Mac.
 
+        mysql_secure_installation
 
         Enter current password for root (enter for none): Press ENTER
         ...
@@ -54,7 +59,7 @@ Now run MySQL security script to set the root password, remove anonymous users, 
         
 ### STEP # 3 Installing PHP and Wordpress
 
-linux users:
+fedora users:
 
          dnf install php php-fpm php-mysqlnd php-gd php-mcrypt php-mbstring
          dnf install wordpress
@@ -106,7 +111,10 @@ Navigate to wp-config.php. The path should be /wordpress/wp-config.php
 Here you'll have to go to themes directory of wordpress and clone this github reposiroty there. The path should be /wordpress/wp-content/themes
  
         git clone https://github.com/pkhander/MOC-pipeline_
-        systemctl restart httpd
+        
+        systemctl restart httpd (fedora)
+        
+        brew services restart httpd (mac)
 
 
 ### STEP # 7 READY TO GO 
